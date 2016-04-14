@@ -6,8 +6,10 @@
 //  Copyright © 2016 Imanol Viana Sánchez. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface SwipeTabBarController : NSObject
+@interface SwipeTabBarController : UITabBarController
+
+-   (void)setupSwipeGestureRecognizers:(BOOL)isAllowsCycling;
 
 @end
